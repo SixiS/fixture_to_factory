@@ -1,0 +1,9 @@
+cheese_burger:
+  name: 'Cheese burger'
+  description: 'Burger of cheese'
+hamburger:
+  name: 'Hamburger'
+  sold: 50
+brie_burger:
+  name: 'Burger of brie'
+  description: 'Gross cheese and stuff'

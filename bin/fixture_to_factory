@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+begin
+  require 'fixture_to_factory'
+rescue LoadError
+  require File.dirname(__FILE__) + '/../lib/fixture_to_factory'
+end
+
+options = {}
+
+FixtureToFactory.execute(options)

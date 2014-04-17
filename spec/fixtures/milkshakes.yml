@@ -1,0 +1,9 @@
+strawberry:
+  name: 'Strawberry | milkshake'
+  ingrdients: 'Strawberries I think'
+chocolage:
+  name: 'Chocolate milkshake'
+  organization: 'LOTS OF CHOCS'
+meat:
+  name: 'MAN SHAKE'
+  organization: 'Steak and babies'
