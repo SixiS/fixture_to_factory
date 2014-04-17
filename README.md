@@ -6,7 +6,7 @@ The conversion is dumb so it just makes basic factories from the fixtures - basi
 
 Looks in ./test/fixtures and ./spec/fixtures
 
-Output goes into ./test/factories or ./spec/factories
+Output goes into ./test/factories or ./spec/factories.
 Output files look like generated_#{fixutre_name}.rb
 
 
