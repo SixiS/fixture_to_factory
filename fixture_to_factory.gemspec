@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "fixture_to_factory"
   spec.version       = FixtureToFactory::VERSION
   spec.authors       = ["Matthew Hirst"]
-  spec.email         = ["hirst.mat@gmail.com"]
+  spec.email         = ["matt@devicemagic.com"]
   spec.description   = %q{Fix to factory is for quick and dirty conversion of fixtures in your test or spec suite into factory girl factories.}
   spec.summary       = %q{Fix to factory is for quick and dirty conversion of fixtures in your test or spec suite into factory girl factories.}
   spec.homepage      = "https://github.com/SixiS/fixture_to_factory"
