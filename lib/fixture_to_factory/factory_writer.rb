@@ -14,6 +14,8 @@ module FixtureToFactory
         class_name = ActiveSupport::Inflector.singularize(fixture_file_name).capitalize
         factory_file_name = "generated_#{fixture_file_name}.rb"
 
+        puts "Writing #{fixture_file_name} fixtures to factory file #{factory_file_name}."
+
         FileUtils.mkdir_p(folder)
         file = File.new("#{folder}/#{factory_file_name}", 'w')
         file.write(convert_yaml_hashes_to_factory_file(class_name, fixtures))
